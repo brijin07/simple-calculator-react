@@ -1,38 +1,65 @@
-.App {
+.text-field{
+  background-color: rgb(92, 88, 88);
+  /* background: url('https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/01/23085949/Definition-and-Functions-of-Money-1024x683.jpg'); */
+  /* background-size: cover; */
+
+  width: 400px;
   text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  /* height: 300px; */
+  box-shadow: 5px 5px 15px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:lighter;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 690px;
+  background: url('https://wallpapercave.com/wp/wp3192102.jpg');
+  background-size: cover;
+}
+
+
+.input{
+  margin-bottom: 15px;
+}
+.btn{
+  width: 250px;
+  height: 50px;
+}
+.outlined-basic{
+  
+  /* background-color: white; */
+  width: 400px;
+  
+}
+
+.outlined-basic{
   color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
+.output{
+  width: 390px;
+  height: 80px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content:start;
+  padding-left: 10px;
+  /* margin-left: 10px; */
+  /* padding: 10px; */
+  align-items: center;
+  border-radius: 10px;
+  /* background: url('https://www.pixelstalk.net/wp-content/uploads/2016/03/Coins-money-currency-dolar-cents-HD-Wallpaper.jpg'); */
+  /* background-size: cover; */
+  opacity: 0.8;
+  line-height: 40px;
+  padding-top: 10px;
+  
 }
